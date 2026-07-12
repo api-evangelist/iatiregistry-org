@@ -41,6 +41,8 @@ apis:
       - type: x-api-endpoint
         url: https://iatiregistry.org/api/3/action/package_search?rows=0
 common:
+  - type: DomainSecurity
+    url: security/iatiregistry-org-domain-security.yml
   - type: Website
     url: https://iatiregistry.org
   - type: Documentation
